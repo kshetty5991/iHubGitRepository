@@ -1,0 +1,30 @@
+Documentation and step by step details on Mongo Movie.
+
+Software requirements :
+STS IDE, MySQL database, tomcat server jar.
+
+Hardware requirements :
+4GB ram system with jdk 8 installed.
+
+***********************************************
+
+Description : 
+Mega mart is a shopping application where a user can register and login for shopping.
+This project has JSP pages embedded and database used is mysql database.
+
+***********************************************
+Steps to run this application :
+
+1) Import this project to STS from github.
+2) Create a database in Mysql. Use Mysql workbench for .
+3) Go to application properties under src - main - resources and  change the properties (port number and database name).
+4) Go to the main program under src/main/java inside demo package.
+5) Open the main program and right click - run as - java application.
+6) Once the project has started without any issues go to browser and launch localhost:8080
+
+Database Description :
+Data base will have 4 tables. Accounts table for will hold the details of Registration and Products table will contain the details 
+of products that are supposed to be predefied during the creation of the database.
+Users table and authorities table are the part of spring security and as we are following default methond of spring security 
+user table and authories table will hold the autentication and authorization details.
+ 
