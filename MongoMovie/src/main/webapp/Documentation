@@ -1,0 +1,28 @@
+Documentation and step by step details on Mongo Movie.
+
+Software requirements :
+STS IDE, MongoDB, Postman, tomcat server jar.
+
+Hardware requirements :
+4GB ram system with jdk 8 installed.
+
+***********************************************
+
+Description : 
+Mongo Movie is a console based application. A Spring boot project that performs addition of movie, update movie details 
+and extracting of movies based on ID and name and also  deleting of previously added movie.
+
+As this project is console based application it has no JSP pages embeded. Hence we use postman to perform any requests.
+Error message validation can also be seen in the response section of postman.
+
+***********************************************
+Steps to run this application :
+
+1) Import this project to STS.
+2) Create a database in Mongo Db. Use Mongodb Compass for Gui.
+3) Go to application properties under src - main - resources and  change the properties (port number and database name).
+4) Go to the main program under src/main/java inside demo package.
+5) Open the main program and right click - run as - java application.
+6) Now go to postman and request for get all for instance like http://localhost:8080/getall .
+7) Change the url based on the actions you want to perform.
+ 
